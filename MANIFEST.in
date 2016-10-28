@@ -1,2 +1,2 @@
-recursive-include video/static/*
-recursive-include video/templates/*
+recursive-include video/static *
+recursive-include video/templates *
