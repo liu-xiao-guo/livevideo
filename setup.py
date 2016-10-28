@@ -15,12 +15,12 @@ setup(
   include_package_data=True,
   entry_points = {
   'console_scripts': [
-    'livevideo = video.stream:main'
+    'livevideo = livevideo.stream:main'
   ]
   },
   package_data={
-    'static': 'video/static/*',
-    'templates': 'video/templates/*'},
+    'static': 'livevideo/static/*',
+    'templates': 'livevideo/templates/*'},
   classifiers=[
     "Private :: Do Not Upload"
   ],
