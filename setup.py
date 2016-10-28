@@ -18,9 +18,6 @@ setup(
     'livevideo = livevideo.stream:main'
   ]
   },
-  package_data={
-    'static': 'livevideo/static/*',
-    'templates': 'livevideo/templates/*'},
   classifiers=[
     "Private :: Do Not Upload"
   ],
