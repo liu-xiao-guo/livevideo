@@ -7,7 +7,7 @@ setup(
   version='0.1',
   description='livevideo',
   long_description=('livevideo'),
-  url='http://github.com/liu-xiao-guo/livevideo',
+  url='https://github.com/liu-xiao-guo/livevideo',
   license='MIT',
   author='xiaoguo, liu',
   author_email='liu-xiao-guo@yahoo.com',
