@@ -15,7 +15,7 @@ setup(
   include_package_data=True,
   entry_points = {
   'console_scripts': [
-    'create_db = video.stream:main'
+    'livevideo = video.stream:main'
   ]
   },
   package_data={
