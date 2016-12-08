@@ -18,5 +18,10 @@ class VideoCamera(object):
         # We are using Motion JPEG, but OpenCV defaults to capture raw images,
         # so we must encode it into JPEG in order to correctly display the
         # video stream.
-        ret, jpeg = cv2.imencode('.jpg', image)
+        # flag, ajpg = cv2.imencode("img_q90.jpg", a, [cv2.IMWRITE_JPEG_QUALITY, 90])
+        # http://www.programcreek.com/python/example/70396/cv2.imencode
+        # #encode to jpeg format
+        # encode param image quality 0 to 100. default:95
+        # if you want to shrink data size, choose low image quality.
+        ret, jpeg = cv2.imencode('.jpg', image, [cv2.IMWRITE_JPEG_QUALITY, 60])
         return jpeg.tobytes()
